@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  messages_id: 
+  users_id: 
+
+two:
+  messages_id: 
+  users_id: 
