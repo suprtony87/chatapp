@@ -68,6 +68,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
     gem 'rails_12factor'
   # END HEROKU REQUIREMENTS
 
+gem 'private_pub'
 
 
 

@@ -8,7 +8,7 @@
 <div class="row">
 
   <div class="col-md-6">
-  <h2>YOUR CHATS</h2>
+  <h2>YOUR OPEN CHATS</h2>
       <table>
         <thead>
           <tr>
@@ -30,6 +30,19 @@
 
   <div class="col-md-6">
     <h2>PEOPLE TO CHAT WITH</h2>
+
+      <% @user.each do |user| %>
+          <div class="row">
+            <div class="col-md-3">
+              <%=user.email%>
+            </div>
+
+            <div class="col-md-9">
+              <button class="btn-danger"><%=link_to 'START A CHAT!!', new_chat_path%></button>
+            </div>
+          </div>
+      <%end%>
+
   </div>
       <br>
 </div>

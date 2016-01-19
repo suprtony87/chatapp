@@ -8,6 +8,8 @@ class HomeController < ApplicationController
 
     @chats = Chat.all
 
+    @user = User.all
+
 
 
   end

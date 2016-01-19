@@ -12,7 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require private_pub
 //= require turbolinks
 //= require_tree .
-
+//= require underscore
 //= require bootstrap-sprockets

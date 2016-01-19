@@ -4,6 +4,13 @@ Rails.application.routes.draw do
   resources :homes
   resources :chats
   resources :messages
+
+  resources :user do 
+    resources :chats do
+      resources :messages
+    end
+  end
+  
   devise_for :users
 
 
